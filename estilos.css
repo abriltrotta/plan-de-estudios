@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  background: #fff0f5; /* Fondo rosa claro */
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: #b03060; /* Rosa fuerte */
+}
+.materia {
+  border: 2px solid #ffb6c1; /* Borde rosa */
+  border-radius: 10px;
+  padding: 10px;
+  margin: 8px;
+  display: inline-block;
+  width: 220px;
+  background: #ffe4ec; /* Fondo rosa claro */
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+.aprobada {
+  background-color: #b2ebf2 !important; /* Celeste claro */
+  border-color: #4dd0e1;
+  color: #004d40;
+}
+.bloqueada {
+  background-color: #f8d7da;
+  color: gray;
+  cursor: not-allowed;
+  border-style: dashed;
+}
