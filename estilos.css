@@ -30,3 +30,30 @@ h1 {
   cursor: not-allowed;
   border-style: dashed;
 }
+.año-container {
+  border: 2px solid #c48dbc;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  background: #ffe6f1;
+}
+
+.cuatri-container {
+  display: flex;
+  gap: 20px;
+}
+
+.cuatri {
+  flex: 1;
+  background: #fce4ec;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.materia {
+  margin: 6px 0;
+  padding: 8px;
+  border-radius: 5px;
+  user-select: none;
+  transition: background-color 0.3s;
+}
